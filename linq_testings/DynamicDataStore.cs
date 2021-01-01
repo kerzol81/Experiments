@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace linq_testings
 {
@@ -16,6 +15,7 @@ namespace linq_testings
             workers.Add(new Person("Adam", "Gore", 4, Convert.ToDateTime("11-5-1980")));
             workers.Add(new Person("Archie", "Leach", 2, Convert.ToDateTime("11-7-1970")));
             workers.Add(new Person("Andy", "Simon", 5, Convert.ToDateTime("11-5-1979")));
+            workers.Add(new Person("Chin", "Silky", 5, Convert.ToDateTime("11-5-1979")));
             workers.Add(new Person("Jolie", "Nester", 4, Convert.ToDateTime("7-4-1983")));
             workers.Add(new Person("Jim", "Smith", 3, Convert.ToDateTime("12-5-1987")));
 

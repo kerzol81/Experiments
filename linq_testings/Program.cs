@@ -15,7 +15,8 @@ namespace linq_testings
             //ordered = ordered.Where(x => x.Experience > 2).ToList();
             //ordered = ordered.Where(x => x.BirthDay > Convert.ToDateTime("1-1-1984")).ToList();
             //ordered = ordered.Where(x => x.BirthDay.Year > 1984).ToList();
-            ordered = ordered.OrderByDescending(x => x.FirstName).Where(x => x.BirthDay.Year > 1980).ToList();
+            //ordered = ordered.OrderByDescending(x => x.FirstName).Where(x => x.BirthDay.Year > 1980).ToList();
+            ordered = ordered.Where(x => x.Experience > 2 && x.BirthDay.Year > 1979).OrderByDescending(x => x.FirstName).ToList();
 
             foreach (var item in ordered)
             {

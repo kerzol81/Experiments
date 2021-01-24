@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linq_testings", "linq_testings\linq_testings.csproj", "{195FFF24-1FDA-4D48-A6FF-694DF1B0E403}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "read_and_write_files", "read_and_write_files\read_and_write_files.csproj", "{380DF2E2-6474-454B-8685-BB1E6E375EFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "read_and_write_files", "read_and_write_files\read_and_write_files.csproj", "{380DF2E2-6474-454B-8685-BB1E6E375EFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates", "delegates\delegates.csproj", "{62E8AC0B-843C-42E6-84FF-B5BFE3BF3C7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delegates_ArbitraryCondition", "delegates_ArbitraryCondition\delegates_ArbitraryCondition.csproj", "{E4CA23C5-C525-4669-A992-A32DE0A3344A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{3DC9B119-658A-48A9-BC37-7E5F397B0460}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{380DF2E2-6474-454B-8685-BB1E6E375EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{380DF2E2-6474-454B-8685-BB1E6E375EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{380DF2E2-6474-454B-8685-BB1E6E375EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E8AC0B-843C-42E6-84FF-B5BFE3BF3C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E8AC0B-843C-42E6-84FF-B5BFE3BF3C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E8AC0B-843C-42E6-84FF-B5BFE3BF3C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E8AC0B-843C-42E6-84FF-B5BFE3BF3C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CA23C5-C525-4669-A992-A32DE0A3344A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CA23C5-C525-4669-A992-A32DE0A3344A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CA23C5-C525-4669-A992-A32DE0A3344A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CA23C5-C525-4669-A992-A32DE0A3344A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC9B119-658A-48A9-BC37-7E5F397B0460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC9B119-658A-48A9-BC37-7E5F397B0460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC9B119-658A-48A9-BC37-7E5F397B0460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC9B119-658A-48A9-BC37-7E5F397B0460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,12 +11,12 @@ namespace Events
         public event VideoEncodedEventHandler VideoEncoded;
         public void Encode(Video _vid)
         {
-            Thread.Sleep(2000);
+            Thread.Sleep(1500);
                         
-            OnVideoEncoded();
+            OnVideoEncoded(_vid.Title);
         }
 
-        protected virtual void OnVideoEncoded()
+        protected virtual void OnVideoEncoded(string title)
         {
             VideoEncoded?.Invoke(this, EventArgs.Empty);
         }
